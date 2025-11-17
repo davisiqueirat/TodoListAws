@@ -1,3 +1,6 @@
+## Projeto
+O projeto é uma todolist em react, usando banco de dados MongoDb, express e Node.
+
 ## como rodar o projeto:
 
 npm install em cada pasta(client/server)
