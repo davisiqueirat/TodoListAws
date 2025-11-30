@@ -2,14 +2,15 @@
 O projeto é uma todolist em react, usando banco de dados MongoDb, express, node. Hospedado na AWS, S3 para frontend e elasticbeen para backend.
 
 ##integrantes
-Davi Siqueira de Carvalho Torres
 
-Ramon Freire Mariz de França
+- Davi Siqueira de Carvalho Torres
 
-Daniel Figueiredo Melo
+- Ramon Freire Mariz de França
 
-Victor Fernando Carvalho de Lima
+- Daniel Figueiredo Melo
 
-Gabriel Duarte Freitas
+- Victor Fernando Carvalho de Lima
 
-João Gabriel dos Santos
+- Gabriel Duarte Freitas
+
+- João Gabriel dos Santos
