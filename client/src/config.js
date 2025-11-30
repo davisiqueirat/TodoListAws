@@ -1,0 +1,1 @@
+export const API_BASE_URL = "http://todobackendfacul-env.eba-nswrpa7h.us-east-1.elasticbeanstalk.com";

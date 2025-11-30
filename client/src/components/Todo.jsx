@@ -1,12 +1,13 @@
 import { useState, useEffect } from "react";
 import { Link } from 'react-router-dom';
+import { API_BASE_URL } from "../config";
 
 export default function Todo({ todo, setTodos }) {
   const [isEditing, setIsEditing] = useState(false);
   const [editValue, setEditValue] = useState(todo.todo);
 
   const updateTodo = async (todoId, todoStatus) => {
-    const res = await fetch(`/api/todos/${todoId}`, {
+    const res = await fetch(`${API_BASE_URL}/api/todos/${todoId}`, {
       method: "PUT",
       body: JSON.stringify({ status: todoStatus }),
       headers: {
@@ -38,7 +39,7 @@ export default function Todo({ todo, setTodos }) {
       });
     });
     
-    const res = await fetch(`/api/todos/${todoId}/edit`, {
+    const res = await fetch(`${API_BASE_URL}/api/todos/${todoId}/edit`, {
       method: "PUT",
       body: JSON.stringify({ todo: editValue }),
       headers: {
@@ -61,7 +62,7 @@ export default function Todo({ todo, setTodos }) {
   };
 
   const deleteTodo = async (todoId) => {
-    const res = await fetch(`/api/todos/${todoId}`,{
+    const res = await fetch(`${API_BASE_URL}/api/todos/${todoId}`,{
       method: "DELETE"
     });
     const json = await res.json();

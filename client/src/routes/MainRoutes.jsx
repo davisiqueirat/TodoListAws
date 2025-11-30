@@ -6,10 +6,10 @@ import Home from '../components/Home'
 export default function MainRoutes() {
   return (
     <Router>
-      <Routes> {/* Envolver os componentes Route em um componente Routes */}
-      <Route path="/" exact element={<Home />} /> {/* Usar a prop "element" para especificar o componente */}
-        <Route path="/App" exact element={<App />} /> {/* Usar a prop "element" para especificar o componente */}
-        <Route path="/about" element={<AboutPage />} /> {/* Usar a prop "element" para especificar o componente */}
+      <Routes>
+      <Route path="/" exact element={<Home />} /> 
+        <Route path="/App" exact element={<App />} /> 
+        <Route path="/about" element={<AboutPage />} /> 
         
       </Routes>
     </Router>
