@@ -1,18 +1,10 @@
 ## Projeto
-O projeto é uma todolist em react, usando banco de dados MongoDb, express e Node.
+O projeto é uma todolist em react, usando banco de dados MongoDb, express, node. Hospedado na AWS, S3 para frontend e elasticbeen para backend.
 
-## como rodar o projeto:
-
-npm install em cada pasta(client/server)
-
-## crie .env na pasta server com as informações abaixo
-
-PORT=5000
-<br>
-MONGODB_URI=mongodb+srv://todolist:Wb9qhO7QyhpMWVtI@cluster0.q5sv0cn.mongodb.net/todosdb
-
-## após isso, rode: 
-
-*npm run dev* para rodar o backend
-<br>
-*npm run start* para rodar o frontend
+##integrantes
+Davi Siqueira de Carvalho Torres
+Ramon Freire Mariz de França
+Daniel Figueiredo Melo
+Victor Fernando Carvalho de Lima
+Gabriel Duarte Freitas
+João Gabriel dos Santos
